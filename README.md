@@ -9,7 +9,6 @@ The Voice Style Transfer project uses the microphone to capture the user's voice
 - Real-time voice recording and transformation.
 - Various voice style options including accents and tones.
 - Simple and interactive web interface.
-- Uses OpenAI's API for voice transformation.
 - Provides audio instructions to guide users through the interface.
 
 ## Installation
@@ -35,11 +34,6 @@ Install the necessary Python libraries by running:
 ```bash
 pip install -r requirements.txt
 ```
-
-### 4. Set Up OpenAI API Key
-You need to provide your OpenAI API key in app.py. Replace YOUR_OPENAI_API_KEY with your actual key:
-
-```openai.api_key = 'YOUR_OPENAI_API_KEY'```
 
 ## How to Use
 ### 1. Start the Flask Server: Run the server to launch the application:
